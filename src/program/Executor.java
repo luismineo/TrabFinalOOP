@@ -2,9 +2,13 @@ package program;
 
 import classes.Animal;
 import classes.Employee;
+import lists.RegisterObjs;
 
 import java.util.Scanner;
 import java.util.Vector;
+
+import static lists.RegisterObjs.*;
+import static methods.Dosage.calculateDosage;
 
 public class Executor {
     public static void menu (int op){
@@ -36,6 +40,7 @@ public class Executor {
         Vector<Employee> employees = new Vector<Employee>();
 
         int op;
+        int options;
         Scanner scanner = new Scanner(System.in);
 
         do {
@@ -48,8 +53,11 @@ public class Executor {
 
         if(op == 1){ //medico
             menu(op);
+            options = scanner.nextInt();
+            System.out.println(calculateDosage(pat02, op));
         } else{ //veterinario
             menu(op);
+            options = scanner.nextInt();
         }
     }
 }
