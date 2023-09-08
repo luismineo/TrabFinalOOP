@@ -3,7 +3,7 @@ package classes;
 public class People extends Animal{
     private String cpf;
 
-    public People(String name, int age, int height, int weight, String cpf) {
+    public People(String name, int age, int height, float weight, String cpf) {
         super(name, age, height, weight);
         this.cpf = cpf;
     }

@@ -4,9 +4,9 @@ public class Animal {
     private String name;
     private int age;
     private int height;
-    private int weight;
+    private float weight;
 
-    public Animal(String name, int age, int height, int weight) {
+    public Animal(String name, int age, int height, float weight) {
         this.name = name;
         this.age = age;
         this.height = height;
@@ -40,11 +40,11 @@ public class Animal {
         this.height = height;
     }
 
-    public int getWeight() {
+    public float getWeight() {
         return weight;
     }
 
-    public void setWeight(int weight) {
+    public void setWeight(float weight) {
         this.weight = weight;
     }
 }

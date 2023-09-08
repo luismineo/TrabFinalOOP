@@ -3,7 +3,7 @@ package classes;
 public class Medic extends Employee{
     private int crm;
 
-    public Medic(String name, int age, int height, int weight, String cpf, float salary, int crm) {
+    public Medic(String name, int age, int height, float weight, String cpf, float salary, int crm) {
         super(name, age, height, weight, cpf, salary);
         this.crm = crm;
     }
