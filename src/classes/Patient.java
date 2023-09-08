@@ -4,8 +4,8 @@ public class Patient extends People{
     private int registerNumber;
     private String conditionCid;
 
-    public Patient(String name, int age, int height, float weight, String cpf, int registerNumber, String conditionCid) {
-        super(name, age, height, weight, cpf);
+    public Patient(String name, int age, int height, float weight, String sex, String cpf, int registerNumber, String conditionCid) {
+        super(name, age, height, weight, sex, cpf);
         this.registerNumber = registerNumber;
         this.conditionCid = conditionCid;
     }

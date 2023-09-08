@@ -3,8 +3,8 @@ package classes;
 public class People extends Animal{
     private String cpf;
 
-    public People(String name, int age, int height, float weight, String cpf) {
-        super(name, age, height, weight);
+    public People(String name, int age, int height, float weight, String sex, String cpf) {
+        super(name, age, height, weight, sex);
         this.cpf = cpf;
     }
 

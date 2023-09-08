@@ -3,8 +3,8 @@ package classes;
 public class Veterinary extends Employee{
     private int crmv;
 
-    public Veterinary(String name, int age, int height, float weight, String cpf, float salary, int crmv) {
-        super(name, age, height, weight, cpf, salary);
+    public Veterinary(String name, int age, int height, float weight, String sex, String cpf, float salary, int crmv) {
+        super(name, age, height, weight, sex, cpf, salary);
         this.crmv = crmv;
     }
 

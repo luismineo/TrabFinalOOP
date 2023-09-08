@@ -5,12 +5,14 @@ public class Animal {
     private int age;
     private int height;
     private float weight;
+    private String sex;
 
-    public Animal(String name, int age, int height, float weight) {
+    public Animal(String name, int age, int height, float weight, String sex) {
         this.name = name;
         this.age = age;
         this.height = height;
         this.weight = weight;
+        this.sex = sex;
     }
 
     public Animal() {
@@ -46,5 +48,13 @@ public class Animal {
 
     public void setWeight(float weight) {
         this.weight = weight;
+    }
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
     }
 }

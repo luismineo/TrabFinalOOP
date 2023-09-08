@@ -3,8 +3,8 @@ package classes;
 public class Employee extends People{
     private float salary;
 
-    public Employee(String name, int age, int height, float weight, String cpf, float salary) {
-        super(name, age, height, weight, cpf);
+    public Employee(String name, int age, int height, float weight, String sex, String cpf, float salary) {
+        super(name, age, height, weight, sex, cpf);
         this.salary = salary;
     }
 
