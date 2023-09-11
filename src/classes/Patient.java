@@ -1,24 +1,14 @@
 package classes;
 
 public class Patient extends People{
-    private int registerNumber;
     private String conditionCid;
 
-    public Patient(String name, int age, int height, float weight, String sex, String cpf, int registerNumber, String conditionCid) {
+    public Patient(String name, int age, int height, float weight, String sex, String cpf, String conditionCid) {
         super(name, age, height, weight, sex, cpf);
-        this.registerNumber = registerNumber;
         this.conditionCid = conditionCid;
     }
 
     public Patient() {
-    }
-
-    public int getRegisterNumber() {
-        return registerNumber;
-    }
-
-    public void setRegisterNumber(int registerNumber) {
-        this.registerNumber = registerNumber;
     }
 
     public String getConditionCid() {
