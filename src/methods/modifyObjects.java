@@ -4,7 +4,7 @@ import classes.*;
 import java.util.Scanner;
 
 public class modifyObjects {
-    public static Patient modifyPatient(Patient patient) {
+    public static void modifyPatient(Patient patient) {
         Scanner scn = new Scanner(System.in);
 
         System.out.println("Qual parâmetro gostaria de modificar:");
@@ -47,10 +47,9 @@ public class modifyObjects {
                 patient.setConditionCid(scn.next());
             }
         }
-        return patient;
     }
 
-    public static Medic modifyMedic(Medic medic) {
+    public static void modifyMedic(Medic medic) {
         Scanner scn = new Scanner(System.in);
 
         System.out.println("Qual parâmetro gostaria de modificar:");
@@ -98,10 +97,9 @@ public class modifyObjects {
                 medic.setCrm(scn.nextInt());
             }
         }
-        return medic;
     }
 
-    public static Veterinary modifyVeterinary(Veterinary veterinary) {
+    public static void modifyVeterinary(Veterinary veterinary) {
         Scanner scn = new Scanner(System.in);
 
         System.out.println("Qual parâmetro gostaria de modificar:");
@@ -149,10 +147,9 @@ public class modifyObjects {
                 veterinary.setCrmv(scn.nextInt());
             }
         }
-        return veterinary;
     }
 
-    public static Dog modifyDog(Dog dog) {
+    public static void modifyDog(Dog dog) {
         Scanner scn = new Scanner(System.in);
 
         System.out.println("Qual parâmetro gostaria de modificar:");
@@ -190,10 +187,9 @@ public class modifyObjects {
                 dog.setDogDisease(scn.next());
             }
         }
-        return dog;
     }
 
-    public static Cat modifyCat(Cat cat) {
+    public static void modifyCat(Cat cat) {
         Scanner scn = new Scanner(System.in);
 
         System.out.println("Qual parâmetro gostaria de modificar:");
@@ -231,6 +227,5 @@ public class modifyObjects {
                 cat.setCatDisease(scn.next());
             }
         }
-        return cat;
     }
 }
