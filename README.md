@@ -3,7 +3,7 @@ Programa que simula um centro de atendimento à pacientes humanos e a animais, p
 
 ## Exemplo de modificadores e encapsulamento
 ![screenchot](https://raw.githubusercontent.com/luismineo/TrabFinalOOP/main/src/imgs/mod_encp.png)
-Modificadores **private** para que os parâmetros sejam acessados somente dentro da classe, e conjunto de **get** e **set*, demonstrando o conceito de encapsulamento, para que os parâmetros sejam acessados e modificados fora da classe
+Modificadores **private** para que os parâmetros sejam acessados somente dentro da classe, e conjunto de **get** e **set**, demonstrando o conceito de encapsulamento, para que os parâmetros sejam acessados e modificados fora da classe
 
 ## Exemplo de herança
 ![screenchot](https://raw.githubusercontent.com/luismineo/TrabFinalOOP/main/src/imgs/hertg.png)
