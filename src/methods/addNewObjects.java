@@ -68,27 +68,27 @@ public class addNewObjects {
         System.out.println("Por favor use underline (nome_sobrenome) ao inves de espaços");
         System.out.println("********************************");
 
-        System.out.println("Digite o nome do paciente:");
+        System.out.println("Digite o nome do médico:");
         name = scn.next();
         medic.setName(name);
 
-        System.out.println("Digite a idade do paciente:");
+        System.out.println("Digite a idade do médico:");
         age = scn.nextInt();
         medic.setAge(age);
 
-        System.out.println("Digite a altura do paciente:");
+        System.out.println("Digite a altura do médico:");
         height = scn.nextInt();
         medic.setHeight(height);
 
-        System.out.println("Digite o peso do paciente:");
+        System.out.println("Digite o peso do médico:");
         weight = scn.nextFloat();
         medic.setWeight(weight);
 
-        System.out.println("Digite o sexo do paciente:");
+        System.out.println("Digite o sexo do médico:");
         sex = scn.next();
         medic.setSex(sex);
 
-        System.out.println("Digite o cpf do paciente:");
+        System.out.println("Digite o cpf do médico:");
         cpf = scn.next();
         medic.setCpf(cpf);
 
@@ -119,27 +119,27 @@ public class addNewObjects {
         System.out.println("Por favor use underline (nome_sobrenome) ao inves de espaços");
         System.out.println("********************************");
 
-        System.out.println("Digite o nome do paciente:");
+        System.out.println("Digite o nome do médico veterinário:");
         name = scn.next();
         veterinary.setName(name);
 
-        System.out.println("Digite a idade do paciente:");
+        System.out.println("Digite a idade do médico veterinário:");
         age = scn.nextInt();
         veterinary.setAge(age);
 
-        System.out.println("Digite a altura do paciente:");
+        System.out.println("Digite a altura do médico veterinário:");
         height = scn.nextInt();
         veterinary.setHeight(height);
 
-        System.out.println("Digite o peso do paciente:");
+        System.out.println("Digite o peso do médico veterinário:");
         weight = scn.nextFloat();
         veterinary.setWeight(weight);
 
-        System.out.println("Digite o sexo do paciente:");
+        System.out.println("Digite o sexo do médico veterinário:");
         sex = scn.next();
         veterinary.setSex(sex);
 
-        System.out.println("Digite o cpf do paciente:");
+        System.out.println("Digite o cpf do médico veterinário:");
         cpf = scn.next();
         veterinary.setCpf(cpf);
 
@@ -147,7 +147,7 @@ public class addNewObjects {
         salary = scn.nextFloat();
         veterinary.setSalary(salary);
 
-        System.out.println("Digite o CRM do médico:");
+        System.out.println("Digite o CRMV do médico veterinário:");
         crmv = scn.nextInt();
         veterinary.setCrmv(crmv);
 
