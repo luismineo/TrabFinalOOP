@@ -11,4 +11,4 @@ Aqui a classe **gato** herda todas as características da classe **animal**
 
 ## Exemplo de polimorfismo
 ![screenchot](https://raw.githubusercontent.com/luismineo/TrabFinalOOP/main/src/imgs/polimorfismo.png) <br>
-Aqui temos um método chamado **calculateDosage** onde o mesmo recebe como parâmetro um objeto do tipo **Animal**. No código, neste método, serão passados tanto objetos do tipo **Dog** e **Cat**, quanto do tipo **Patient**, portanto sendo um exemplo de polimorfismo. Já que estas classes herdam de **Animal**, elas podem ser passadas como parâmetro para o método.
+Aqui temos um método chamado **calculateDosage** onde o mesmo recebe como parâmetro um objeto do tipo **Animal**. No código, neste método, serão passados tanto objetos do tipo **Dog** e **Cat**, quanto do tipo **Patient**, portanto sendo um exemplo de polimorfismo. Já que estas classes herdam de **Animal**, elas podem ser passadas como parâmetro para o método
